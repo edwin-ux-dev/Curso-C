@@ -30,11 +30,19 @@ int suma = num1+num2+num3;
 printf("suma : %d\n", suma);
 
 
-for (int i = 0; num; i++)
+for (int i = 0; num > 0; i++)
 {
-    //num -= 1;
+    printf("num antes de restar = %d\n", num);
+    num -= 1;
     printf("num = %d\n", num);
 }
+
+//while (num > 0)
+//{
+  //  num -= 1;
+   // printf("num = %d\n", num);
+//}
+
 
 
 
