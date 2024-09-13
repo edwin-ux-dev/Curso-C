@@ -5,6 +5,7 @@ int main(){
 int a = 5;
 int b = 6;
 ///////////////////////////// If
+
 if (a > b) {
     printf("a es mayor que b\n");
 }
@@ -12,6 +13,7 @@ if (a > b) {
 
 
 ///////////////////////////// Else If
+
 if (a > b) {
     printf("a es mayor que b\n");
 } else if (a < b) {
@@ -21,14 +23,21 @@ if (a > b) {
 }
 
 
+
+
 ///////////////////////////// Else 
+
 if (a > b) {
     printf("a es mayor que b\n");
 } else {
     printf("a no es mayor que b\n");
 }
 
-int opcion = 0 ;
+int opcion = 1 ;
+
+
+
+//////////////////////////// switch
 
 switch (opcion)
 {
